@@ -1,0 +1,81 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: linear-gradient(135deg, #007bff, #00bfff);
+    font-family: 'Arial', sans-serif;
+  }
+  
+  .stopwatch-container {
+    text-align: center;
+    background-color: white;
+    padding: 40px;
+    border-radius: 20px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  }
+  
+  h1 {
+    color: #007bff;
+  }
+  
+  #timer {
+    font-size: 48px;
+    margin: 20px 0;
+  }
+  
+  .controls button {
+    background: linear-gradient(90deg, #007bff, #00bfff);
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 18px;
+    margin: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .controls button:hover {
+    background-color: #0056b3;
+  }
+  
+  .laps {
+    margin-top: 20px;
+  }
+  
+  .laps h2 {
+    font-size: 24px;
+    color: #007bff;
+  }
+  
+  .laps ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .laps li {
+    font-size: 20px;
+    margin: 5px 0;
+    color: #333;
+  }
+  
+  #timer {
+    width: 400px;
+    height: 200px;
+    line-height: 200px;
+    text-align: center;
+    margin: 20px auto;
+    border-radius: 10%;
+    background: conic-gradient(from 180deg, #007bff, #00bfff);
+    color: white;
+    font-weight: bold;
+  }
+  
